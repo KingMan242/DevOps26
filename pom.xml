@@ -6,7 +6,7 @@
 
     <groupId>com.napier.sem</groupId>
     <artifactId>DevOps26</artifactId>
-    <version>0.1.0.2 (0.1-alpha-2)</version>
+    <version>1.2.0.2 (1.2-alpha-2)</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
