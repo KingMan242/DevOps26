@@ -85,9 +85,9 @@ public class App {
             // Check one is returned
             if (rset.next()) {
                 Employee emp = new Employee();
-                emp.emp_no = rset.getInt("emp_no");
-                emp.first_name = rset.getString("first_name");
-                emp.last_name = rset.getString("last_name");
+                emp.setEmp_no(rset.getInt("emp_no"));
+                emp.setFirst_name(rset.getString("first_name"));
+                emp.setLast_name(rset.getString("last_name"));
                 return emp;
             } else
                 return null;
@@ -101,13 +101,13 @@ public class App {
     public void displayEmployee(Employee emp) {
         if (emp != null) {
             System.out.println(
-                    emp.emp_no + " "
-                            + emp.first_name + " "
-                            + emp.last_name + "\n"
-                            + emp.title + "\n"
-                            + "Salary:" + emp.salary + "\n"
-                            + emp.dept_name + "\n"
-                            + "Manager: " + emp.manager + "\n");
+                    emp.getEmp_no() + " "
+                            + emp.getFirst_name() + " "
+                            + emp.getLast_name() + "\n"
+                            + emp.getTitle() + "\n"
+                            + "Salary:" + emp.getSalary() + "\n"
+                            + emp.getDept_name() + "\n"
+                            + "Manager:" + emp.getManager() + "\n ");
         }
     }
 }

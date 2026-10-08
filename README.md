@@ -1,4 +1,5 @@
 # DevOps26
+##View Record##
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/KingMan242/DevOps26/feature/view-record)
 
 [![LICENSE](https://img.shields.io/github/license/KingMan242/DevOps26.svg?style=flat-square)](https://github.com/KingMan242/DevOps26/blob/master/LICENSE)
@@ -9,4 +10,6 @@
 
 ##Integrated Mongo DB in this build
 ##Integrated SQL DB 
+##Users can read records
+
 
