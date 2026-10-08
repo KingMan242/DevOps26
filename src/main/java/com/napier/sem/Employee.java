@@ -5,30 +5,11 @@ package com.napier.sem;
  */
 public class Employee
 {
-    /**
-     * Employee number
-     */
-    public int emp_no;
-
-    /**
-     * Employee's first name
-     */
-    public String first_name;
-
-    /**
-     * Employee's last name
-     */
-    public String last_name;
-
-    /**
-     * Employee's job title
-     */
-    public String title;
-
-    /**
-     * Employee's salary
-     */
-    public int salary;
+    private int emp_no;
+    private String first_name;
+    private String last_name;
+    private String title;
+    private int salary;
 
     public int getEmp_no() {
         return emp_no;
@@ -86,14 +67,8 @@ public class Employee
         this.manager = manager;
     }
 
-    /**
-     * Employee's current department
-     */
-    public String dept_name;
 
-    /**
-     * Employee's manager
-     */
+    public String dept_name;
     public String manager;
 
 
