@@ -68,8 +68,8 @@ public class Employee
     }
 
 
-    public String dept_name;
-    public String manager;
+    private String dept_name;
+    private String manager;
 
 
 

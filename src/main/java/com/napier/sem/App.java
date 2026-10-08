@@ -105,8 +105,8 @@ public class App {
                             + emp.getLast_name() + "\n"
                             + emp.getTitle() + "\n"
                             + "Salary:" + emp.getSalary() + "\n"
-                            + emp.dept_name + "\n"
-                            + "Manager: " + emp.manager + "\n");
+                            + emp.getDept_name() + "\n"
+                            + "Manager: " + emp.getManager() + "\n");
         }
     }
 }
